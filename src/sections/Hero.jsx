@@ -1,12 +1,8 @@
 import { ChevronDown, Search } from "lucide-react";
 import { Dropdown } from "../components/Dropdown";
-import { useEffect } from "react";
 
 export function Hero() {
-  useEffect(() => {
-    const img = new Image();
-    img.src = '/src/assets/house-hero.webp';
-  }, []);
+ 
 
   return (
     <section className=" w-full px-5 md:px-10">
