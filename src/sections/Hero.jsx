@@ -1,5 +1,6 @@
 import { ChevronDown, Search } from "lucide-react";
 import { Dropdown } from "../components/Dropdown";
+import { useEffect } from "react";
 
 export function Hero() {
   useEffect(() => {
