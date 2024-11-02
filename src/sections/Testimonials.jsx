@@ -9,8 +9,8 @@ export function Testimonials() {
             What People Are Saying
           </h2>
           <p className=" text-black/60 text-xl font-medium whitespace-pre-line">
-            Real feedback from clients who've experienced the Urbanouse {"\n"}{" "}
-            difference.
+            Real feedback from clients who&apos;ve experienced the Urbanouse{" "}
+            {"\n"} difference.
           </p>
         </div>
         <div className="flex gap-5">
@@ -29,9 +29,10 @@ export function Testimonials() {
       <div className="flex flex-col md:flex-row items-center justify-between w-full gap-10">
         <div className="flex flex-col gap-5">
           <p className="text-primary text-xl md:text-2xl font-medium whitespace-pre-line">
-            "Urbanouse made buying our first home an absolute breeze! {"\n"}{" "}
-            Their team was incredibly attentive and guided us through every step{" "}
-            {"\n"} . We couldn't be happier with our new home."
+            &quot;Urbanouse made buying our first home an absolute breeze!{" "}
+            {"\n"} Their team was incredibly attentive and guided us through
+            every step {"\n"} . We couldn&apos;t be happier with our new
+            home.&quot;
           </p>
           <div className="text-lg font-medium">
             <p className="text-primary ">Sarah & Michael Stone </p>

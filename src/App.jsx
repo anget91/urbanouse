@@ -3,6 +3,8 @@ import { Hero } from "./sections/Hero";
 import { Description } from "./sections/Description";
 import { Products } from "./sections/Products";
 import { Testimonials } from "./sections/Testimonials";
+import { Questions } from "./sections/Questions";
+import { Footer } from "./sections/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Description />
           <Products />
           <Testimonials />
+          <Questions />
+          <Footer />
         </div>
       </div>
     </>

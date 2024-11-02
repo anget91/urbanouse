@@ -55,7 +55,7 @@ export function Nav() {
 
       {/* Menú desplegable para pantallas móviles */}
       {isMobileMenuOpen && (
-        <nav className="absolute top-16 left-0 w-full bg-white text-black p-5 flex flex-col gap-6 items-center shadow-md lg:hidden">
+        <nav className="absolute top-16 left-0 w-full bg-white text-black/60 p-5 flex flex-col gap-6 items-center shadow-md lg:hidden font-medium">
           <a href="/" className="text-black">
             Home
           </a>
@@ -74,7 +74,7 @@ export function Nav() {
           <a href="/services" className="hover:text-black">
             Services
           </a>
-          <button className="px-5 py-3 bg-primary text-white rounded-full">
+          <button className="px-5 py-3 bg-primary text-white rounded-full text-sm">
             Contact Us
           </button>
         </nav>

@@ -1,4 +1,6 @@
 import HouseImg from "../assets/house-hero.webp";
+import PropTypes from 'prop-types'; 
+
 
 export function Product({ 
   img = HouseImg, 
@@ -30,3 +32,13 @@ export function Product({
     </div>
   );
 }
+
+Product.propTypes = {
+  img: PropTypes.string, 
+  price: PropTypes.string,
+  title: PropTypes.string,
+  beds: PropTypes.string, 
+  baths: PropTypes.string,
+  sq: PropTypes.string, 
+};
+

@@ -1,4 +1,4 @@
-import { ChevronDown, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { Dropdown } from "../components/Dropdown";
 
 export function Hero() {
@@ -14,7 +14,7 @@ export function Hero() {
             </h1>
             <p className="drop-shadow-2xl text-center whitespace-pre-line">
               Experience luxury and comfort with our exclusive real estate
-              listings.{"\n"} Whether you're searching for a modern apartment, a
+              listings.{"\n"} Whether you&apos;re looking for a spacious family home,
               spacious villa, or a commercial space, Urbanouse has the perfect
               property for you.
             </p>

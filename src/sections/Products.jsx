@@ -1,4 +1,4 @@
-import { ArrowUpRight, MoveUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Product1 from "../assets/product1.webp";
 import Product2 from "../assets/product2.webp";
 import Product3 from "../assets/product3.webp";
@@ -70,7 +70,7 @@ export function Products() {
         />
       </div>
       <button className="flex px-5 py-3 items-center border border-primary rounded-3xl gap-2 font-medium">
-        Let's see other property
+        Let&apos;s see other property
         <ArrowUpRight size={25} strokeWidth={1} className="self-end" />
       </button>
     </section>
