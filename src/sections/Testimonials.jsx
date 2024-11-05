@@ -2,7 +2,7 @@ import { CircleArrowLeft, CircleArrowRight } from "lucide-react";
 import ImgPeople from "../assets/people.webp";
 export function Testimonials() {
   return (
-    <section className="  px-10 md:px-20 py-20 w-full mt-24 flex flex-col items-center gap-7 bg-zinc-100 ">
+    <section className="px-10 md:px-20 py-20 w-full mt-24 flex flex-col items-center gap-7 bg-zinc-100 ">
       <div className="flex flex-col md:flex-row justify-between w-full items-center gap-8">
         <div className="flex flex-col gap-5">
           <h2 className="text-3xl md:text-5xl font-medium text-primary">

@@ -9,16 +9,14 @@ import { Footer } from "./sections/Footer";
 function App() {
   return (
     <>
-       <div className="w-full">
-        <div className="max-w-[1500px] w-full mx-auto flex flex-col items-center">
-          <Nav />
-          <Hero />
-          <Description />
-          <Products />
-          <Testimonials />
-          <Questions />
-          <Footer />
-        </div>
+      <div className="w-full  mx-auto flex flex-col items-center">
+        <Nav />
+        <Hero />
+        <Description />
+        <Products />
+        <Testimonials />
+        <Questions />
+        <Footer />
       </div>
     </>
   );
