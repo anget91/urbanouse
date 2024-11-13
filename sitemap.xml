@@ -7,10 +7,13 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://anget91.github.io/urbanouse/</loc>
-  <lastmod>2024-10-23T16:18:33+00:00</lastmod>
-</url>
+ <!-- Página principal -->
+  <url>
+    <loc>https://anget91.github.io/urbanouse/</loc>
+    <lastmod>2024-10-23T16:18:33+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
 
 </urlset>
