@@ -22,9 +22,12 @@ export function Description() {
         <div className="relative">
           <img
             src={HouseImg1}
-            alt="Family House"
+            alt="Urbanouse Family House"
             loading="lazy"
             className="h-80 w-full max-w-[500px] min-w-60 object-cover rounded-bl-[40px] rounded-tr-[40px] brightness-75"
+            title="Urbanouse Familt House"
+            height={320}
+            width={500}
           />
           <div className="absolute flex flex-col gap-1 bottom-4 left-10 text-white">
             <span className="text-xl font-medium drop-shadow-2xl">
@@ -35,15 +38,21 @@ export function Description() {
         </div>
         <img
           src={HouseImg2}
-          alt="Family House"
+          alt="Urbanouse Family House"
           loading="lazy"
           className="h-80 max-w-[500px] w-full md:w-60 object-cover rounded-bl-[40px] rounded-tr-[40px] "
+          title="Urbanouse Familt House"
+          height={320}
+          width={500}
         />
         <img
           src={HouseImg3}
-          alt="Family House"
+          alt="Urbanouse Family House"
           loading="lazy"
           className="h-80 max-w-[500px] w-full md:w-60 object-cover rounded-bl-[40px] rounded-tr-[40px] "
+          title="Urbanouse Familt House"
+          height={320}
+          width={500}
         />
         <div className="flex flex-col items-center text-primary gap-4 ">
           <CircleArrowUp

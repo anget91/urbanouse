@@ -6,9 +6,9 @@ export function Footer() {
     <footer className="w-full ">
       <div className="bg-[url('/src/assets/house-description-big.webp')] bg-cover bg-center w-full h-[40rem] relative flex flex-col justify-between">
         <div className="flex flex-col items-center justify-center gap-5 h-full mx-4">
-          <h1 className="drop-shadow-2xl font-semibold text-xl md:text-5xl text-center text-white whitespace-pre-line">
+          <h2 className="drop-shadow-2xl font-semibold text-xl md:text-5xl text-center text-white whitespace-pre-line">
             Ready To Find Your Dream Home {"\n"} With Urbanouse?
-          </h1>
+          </h2>
           <p className="drop-shadow-2xl text-base md:text-lg text-center whitespace-pre-line text-white">
             Join thousands of happy homeowners who found their perfect residence
             with us. {"\n"} Let&apos;s make your property journey smooth and

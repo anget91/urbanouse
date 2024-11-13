@@ -41,9 +41,12 @@ export function Testimonials() {
         </div>
         <img
           src={ImgPeople}
-          alt="imagen personas"
+          alt="Urbanouse testimonials"
           loading="lazy"
           className="h-96 w-80 object-cover rounded-tr-[60px] rounded-bl-[60px]"
+          title="Urbanouse testimonials"
+          width={384}
+          height={320}
         />
       </div>
     </section>

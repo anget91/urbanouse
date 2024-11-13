@@ -10,7 +10,7 @@ export function Nav() {
     <header className="flex justify-between px-10 py-7 items-center w-full z-20">
       {/* Logo */}
       <a href="/" className="flex items-center gap-2">
-        <img src={UrbanouseIcon} alt="Urbanouse logo" loading="lazy" width={30} height={30} />
+        <img src={UrbanouseIcon} alt="Urbanouse logo" loading="eager" width={30} height={30} title="Urbanouse" />
         <strong className="text-2xl flex">Urbanouse</strong>
       </a>
 
